@@ -1,0 +1,202 @@
+body,h1,h2,h3,h4,p{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', 'Work Sans';
+}
+h1{
+    font-size: 4.5em;
+    font-weight: 500;
+}
+h2{
+    text-transform: uppercase;
+    font-size: 2.4em;
+    font-weight: 400;
+}
+p{
+    font-size: 1.1em;
+    font-family: 'Work Sans';
+    line-height: 30px;
+    font-weight: 300;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-family: 'Work Sans';
+}
+header{
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+}
+header div:first-of-type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+header div img{
+    width: 100%;
+} 
+header p{
+    font-family: 'Lora';
+}
+
+
+
+nav{
+    background-color: #2e2e2e;
+    height: 10vh;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+nav img{
+    height: 70%;;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav li:last-of-type{
+    margin-right: 10%;
+}
+
+
+
+
+#story{
+    background-color: #2e2e2e;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 85vh;
+    height: 100%;
+    align-items: center;
+}
+#story img{
+    height: 60vh;
+    width: 100%;
+}
+#story h2,#story p{
+    padding: 0 5% 5vh 5%;
+    color: white;
+}
+#story h2{
+    text-align: center;
+}
+
+
+#featured h2{
+    margin-top: 30vh;
+    text-align: center;
+}
+#featured p:first-of-type{
+    text-align: center;
+    word-spacing: 10px;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 10vh;
+    color: #2e2e2e;
+    line-height: 20px;
+}
+#featured article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-content: space-evenly;
+    justify-items: center;
+    width: 100%;
+}
+#featured article div{
+    text-align: center;
+
+}
+#featured article div img{
+    width: 80%;    
+}
+#featured > div:last-child{
+    margin: auto 20vh 20vh;
+    text-align: center;    
+} 
+
+
+
+#touch{
+    background-color: #2e2e2e;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 80vh;
+    height: 100%;
+    align-items: center;
+    color: white;
+    /* overflow: hidden; */
+}
+#touch div{
+    padding: 0 30% 0 10%;
+}
+#touch h2, p{
+    padding-bottom: 5vh;
+}
+
+
+
+form{
+    display: inline-block;
+    width: 65%;
+    margin-left:5%;
+}
+form fieldset{
+    width: 100%;
+    border: none;
+}
+fieldset label{
+    display: block;
+    font-size: 1.1em;
+}
+fieldset input:not(:last-of-type), textarea{
+    width: 100%;
+    margin-bottom: 5vh;
+    line-height: 20px;
+}
+fieldset input:last-of-type{
+    padding: 5px 8px;
+    font-size: .6em;
+    letter-spacing: 1px;
+}
+
+
+
+
+
+footer nav{
+    background-color: #1d2c2f;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    margin: 0;
+    padding: 0;
+}
+
+ footer a,p{
+    font-family: 'Lora';
+}
+footer div:first-of-type{
+    padding-left: 2%;
+}
+footer div:last-of-type{
+    padding-right: 2%;
+}
+
+
+footer li{
+    margin-left: 30px;
+} 
